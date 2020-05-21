@@ -1,0 +1,58 @@
+body {
+    background-color: lightsteelblue;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.container {
+  grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 80px auto 80px; 
+  column-gap: 10px;
+  row-gap: 15px;
+}
+
+.supervisor {
+    /* float: left;
+    display: block;
+    background-color: linen;
+    height: 150px;
+    width: 150px; */
+}
+
+.team-builder {
+    /* display: block;
+    background-color: linen;
+    height: 150px;
+    width: 150px; */
+}
+
+.karma {
+    /* display: block;
+    background-color: linen;
+    height: 150px;
+    width: 150px; */
+}
+
+.calculator {
+    /* float: right;
+    display: block;
+    background-color: linen;
+    height: 150px;
+    width: 150px; */
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(228, 45%, 44%); 
+}
