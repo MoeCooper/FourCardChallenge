@@ -2,57 +2,66 @@ body {
     background-color: lightsteelblue;
 }
 
-h1, h2 {
-    text-align: center;
-}
-
-h1 {
+.reliable-efficient-delivery {
     font-weight: lighter;
 }
 
-h2 {
-    font-weight: bold;
+.centered {
+    text-align: center;
+}
+
+body h2 {
+    width: 50%;
 }
 
 .container {
   grid-template-columns: 100px 50px 100px;
   grid-template-rows: 80px auto 80px; 
-  column-gap: 10px;
-  row-gap: 15px;
+  column-gap: 20px;
+  row-gap: 35px;
+  text-align: center;
 }
 
 .supervisor {
-    /* float: left;
-    display: block;
+    float: left;
+    display: inline-block;
     background-color: linen;
-    height: 150px;
-    width: 150px; */
+    height: 300px;
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 130px;
+    border-top: 2px solid teal;
+    border-radius: 5px;
 }
 
 .team-builder {
-    /* display: block;
+    display: block;
     background-color: linen;
-    height: 150px;
-    width: 150px; */
+    height: 300px;
+    width: 300px;
+    margin: auto auto;
+    border-top: 2px solid brown;
+    border-radius: 5px;
 }
 
 .karma {
-    /* display: block;
+    display: block;
     background-color: linen;
-    height: 150px;
-    width: 150px; */
+    height: 300px;
+    width: 300px;
+    margin: auto auto;
+    border-top: 2px solid orange;
+    border-radius: 5px;
 }
 
 .calculator {
-    /* float: right;
-    display: block;
+    float: right;
+    display: inline-block;
     background-color: linen;
-    height: 150px;
-    width: 150px; */
+    height: 300px;
+    width: 300px;
+    margin-left: 10px;
+    border-top: 2px solid blue;
+    border-radius: 5px;
 }
 
-.attribution {
-    font-size: 11px; 
-    text-align: center; 
-    color: hsl(228, 45%, 44%); 
-}
