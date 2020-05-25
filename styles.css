@@ -23,7 +23,6 @@ body h2 {
 }
 
 .supervisor {
-    float: left;
     display: inline-block;
     background-color: linen;
     height: 300px;
@@ -35,7 +34,7 @@ body h2 {
 }
 
 .team-builder {
-    display: block;
+    display: inline-block;
     background-color: linen;
     height: 300px;
     width: 300px;
@@ -45,7 +44,7 @@ body h2 {
 }
 
 .karma {
-    display: block;
+    display: inline-block;
     background-color: linen;
     height: 300px;
     width: 300px;
@@ -55,7 +54,6 @@ body h2 {
 }
 
 .calculator {
-    float: right;
     display: inline-block;
     background-color: linen;
     height: 300px;
