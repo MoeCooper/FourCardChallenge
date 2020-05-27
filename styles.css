@@ -1,5 +1,7 @@
 body {
     background-color: lightsteelblue;
+    width: 100vw;
+    height: 100vh;
 }
 
 .reliable-efficient-delivery {
@@ -14,20 +16,27 @@ body h2 {
     width: 50%;
 }
 
-.container {
-  grid-template-columns: 100px 50px 100px;
-  grid-template-rows: 80px auto 80px; 
-  column-gap: 20px;
-  row-gap: 35px;
-  text-align: center;
+.middle_box_holder {
+    border: 1px solid #fff;
+    margin: 0px 25px;
+    height: 200px;
+    width: 200px;
+}
+
+.middle .middle_box_holder {
+    margin: 25px 0;
+}
+
+.flex-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .supervisor {
     display: inline-block;
     background-color: linen;
-    height: 300px;
-    width: 300px;
-    margin-right: 10px;
     margin-top: 130px;
     border-top: 2px solid teal;
     border-radius: 5px;
@@ -36,9 +45,6 @@ body h2 {
 .team-builder {
     display: inline-block;
     background-color: linen;
-    height: 300px;
-    width: 300px;
-    margin: auto auto;
     border-top: 2px solid brown;
     border-radius: 5px;
 }
@@ -46,9 +52,6 @@ body h2 {
 .karma {
     display: inline-block;
     background-color: linen;
-    height: 300px;
-    width: 300px;
-    margin: auto auto;
     border-top: 2px solid orange;
     border-radius: 5px;
 }
@@ -56,9 +59,6 @@ body h2 {
 .calculator {
     display: inline-block;
     background-color: linen;
-    height: 300px;
-    width: 300px;
-    margin-left: 10px;
     border-top: 2px solid blue;
     border-radius: 5px;
 }
